@@ -34,6 +34,7 @@ public class FoodResultActivity extends AppCompatActivity {
 
     public String url, code;
     TextView view;
+    private final String API_KEY = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +54,7 @@ public class FoodResultActivity extends AppCompatActivity {
                         "?fields=item_name%2Citem_id%2Cbrand_name%2Cnf_calories%2Cnf_total_fat%2Cnf_total_carbohydrate%2Cnf_sugars")
                 .get()
                 .addHeader("X-RapidAPI-Host", "nutritionix-api.p.rapidapi.com")
-                .addHeader("X-RapidAPI-Key", "61ae615dd0msh0a938c89a8d8f83p1abc67jsn152700cef34f")
+                .addHeader("X-RapidAPI-Key", API_KEY)
                 .build();
 
 
