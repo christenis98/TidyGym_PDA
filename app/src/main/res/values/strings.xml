@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="send_option">Send</string>
+    <string name="help_option">Help</string>
+    <string name="paint_option">Paint</string>
+    <string name="result_name">Result</string>
+    <string name="food_option">Food Entry</string>
+</resources>
